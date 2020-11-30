@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div id="page-container">
+      <div class="container">
+        <div class="logo-container">
+          <img src="images/logo.svg" alt="logo" class="logo" />
+        </div>
+        <h1 class="title"><span> We are launching</span> soon!</h1>
+
+        <p class="text">Subscribe and get notified</p>
+        <form novalidate id="form">
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            aria-label="Email Field"
+            placeholder="Your email address..."
+          />
+          <p class="hide" id="error-text">
+            Please provide a valid email address
+          </p>
+          <button type="submit" class="btn">Notify Me</button>
+        </form>
+        <img src="/images/illustration-dashboard.png" alt="image" class="img" />
+        <div class="icon-container">
+          <div class="icon"><i class="fab fa-facebook-f fa-sm"></i></div>
+          <div class="icon"><i class="fab fa-twitter fa-sm"></i></div>
+          <div class="icon"><i class="fab fa-instagram fa-sm"></i></div>
+        </div>
+        <footer class="content-footer">
+          <p>&copy; Copyright Ping. All rights reserved.</p>
+        </footer>
+      </div>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.linkedin.com/in/vivien-bálint-924179164/"
+            >Vivien Balint</a
+          >.
+        </p>
+      </footer>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
